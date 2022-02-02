@@ -1,0 +1,72 @@
+.container {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    width: 100%;
+}
+
+.sliderBlock {
+    background-color: #333;
+    border-radius: 20px;
+    box-shadow: 3px 2px 2px rgb(4, 14, 20, 0.3);
+    width: 80%;
+    height: 120px;
+    margin: 8px 0;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+
+.sliderBlock > label {
+    color: var(--first-color);
+    font-weight: bold;
+    font-size: 20px;
+    flex: 1;
+}
+
+.sliderBlock > .slider {
+    flex: 3;
+    -webkit-appearance: none;
+    width: 50%;
+    height: 15px;
+    border-radius: 5px;  
+    outline: none;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.sliderBlock >.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: rgb(0, 255, 149);
+    cursor: pointer;
+  }
+
+.sliderBlock > .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+.sliderBlock > .numberInput {
+    margin: auto 16px;
+    width: 50px;
+    height: 20px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}   
+

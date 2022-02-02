@@ -1,0 +1,50 @@
+
+.container {
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    margin: auto auto;
+    flex-direction: column;
+}
+
+.img {
+    width: 400px;
+}
+
+.video {
+    width: 500px;
+}
+
+.divBtn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    letter-spacing:1px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(24, 158, 241);
+    background: rgba( 255, 255, 255, 0.1 );
+    position: relative;
+    transition: .2s ease-in-out;
+    margin-top: 10%;
+
+
+}
+
+.divBtn > a {
+    outline: none;
+    background: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.divBtn:hover {
+    cursor: pointer;
+    background-color: var(--first-color)
+
+}

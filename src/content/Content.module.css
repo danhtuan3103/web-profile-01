@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.infoBlock {
+    display: flex;
+    justify-content:space-around;
+    font-family: Montserrat, sans-serif;
+}
+.textBlock {
+    margin-top: 5%;
+    margin-left: 8%;
+    flex: 2;
+    text-align: left;
+}
+
+.textBlock > p {
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    padding: 4px 0;
+    font-size: 20px;
+}
+.textBlock > p > strong {
+    color: #1429e9;
+}
+
+
+.checkBlock {
+
+    margin-top: 3%;
+    font-size: 18px;
+
+}
+
+.checkBlock > span {
+    opacity: 0.9;
+    font-weight:1;
+    padding: 0 4px;
+    margin-right: 8px;
+}
+.checkbox { 
+    width: 1em;
+    height: 1em;
+    border: 0.15em solid rgb(9, 120, 238);
+
+
+}
+
+.btnBlock {
+    margin-top: 25%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+.divBtn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    letter-spacing:1px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(24, 158, 241);
+    background: rgba( 255, 255, 255, 0.1 );
+    position: relative;
+    transition: .2s ease-in-out;
+
+
+}
+
+.divBtn > a {
+    outline: none;
+    background: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.divBtn:hover {
+    cursor: pointer;
+    background-color: var(--first-color)
+
+}
+
+.divBtn + .divBtn {
+    margin: 16px;
+}
+
+
+
+.imgBlock {
+    flex: 1;
+    background-color: black;
+}
+.imgInfo {
+    margin-top: -7%;
+}   
+

@@ -1,38 +1,68 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+:root {
+  --first-color:rgb(24, 158, 241);
+
+}
+
+* {    
+  /* margin: 0 !important;
+  padding: 0 !important; */
+}
+.App{
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+.background{
+  height: 100vh;
+  background: rgb(121,9,106);
+  background: linear-gradient(45deg, rgb(241, 118, 225), rgb(172, 189, 236) , rgb(77, 211, 238));
+  position: relative;
+  overflow: hidden;
+
+}
+.background::before{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 3%;
+  left: 3%;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border:none;
+  background: rgba( 255, 255, 255, 0.4 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  opacity: 0.5;
+}
+.background::after{
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: -10%;
+  right: -7%;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: black;
+  background: rgba( 255, 255, 255, 0.4 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  opacity: 0.5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  z-index: 10;
+  width: 85%;
+  height: 85vh;
+  position: absolute;
+  top:7.5%;
+  left: 7%;
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  overflow:hidden;
 }

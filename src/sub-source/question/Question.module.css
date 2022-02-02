@@ -1,0 +1,31 @@
+.container {
+    height: calc(85vh - 90px) ;
+    position: relative;
+    overflow: hidden ;
+}
+.questionContainer {
+    display: flex;
+    height: 87%;
+    flex-wrap: wrap;
+
+}
+
+.infoBlock {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    border: 1px solid #333;
+    margin: auto auto;
+
+}
+
+.infoBlock > h3 {
+    flex: 1;
+}
+
+.infoBlock > p {
+    flex: 2;
+    display: flex;
+    
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    font-family: Satisfy, sans-serif;
+    color: rgb(24, 158, 241);
+}
+
+.name > a {
+    text-decoration: none;
+    color: var(--first-color);
+}
+
+
+
+.listItem{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navItem {
+    list-style: none;
+    margin: 0 16px;
+    padding: 8px 0;
+ 
+}
+
+.navItem > a  {
+    font-family: Montserrat, sans-serif;
+    margin: 0 auto;
+    padding: 8px 26px;
+    text-decoration: none;
+    color: black;
+}
+
+.line {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: rgb(24, 158, 241);
+    transition: all 0.2s ease;
+}

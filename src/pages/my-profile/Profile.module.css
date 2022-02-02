@@ -1,0 +1,141 @@
+.profileContainer {
+    display: flex;
+    justify-content: space-around;  
+    height: calc(85vh - 90px);
+
+}
+
+.menuProfile {
+    flex: 1;
+    margin-top:3%;
+    border-right: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+
+.avatarBlock {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: black;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid var(--first-color);
+}
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Modal */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
+  }
+
+.modal > img {
+    width: 500px;
+}
+  
+  /* Modal Content (image) */
+.modalContent {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+.caption {
+        background-color: aqua;
+        margin: 24px auto;
+        width: 500px;
+        padding: 8px 0;
+
+
+  }
+
+  .modalContent, .caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.nav{
+    margin-top: 5%;
+    text-align: left;
+    position:absolute;
+    top: 35%;
+    left: 20%;
+
+}
+.nav > ul > li {
+    list-style: none;
+    padding: 4px 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+
+
+}
+.nav > ul > li > a {
+    padding: 4px 0;
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.content{
+    flex: 3;
+    display:flex;
+
+}

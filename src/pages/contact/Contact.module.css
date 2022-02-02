@@ -1,0 +1,139 @@
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto auto;
+    font-family: Montserrat;
+}
+
+.sendMesage {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    text-align: left;
+    margin: 2% 5% 0 7%;
+
+
+}
+.sendMesage > h3 {
+    font-size: 26px;
+    margin: 0 0;
+}
+
+.formContact {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:content;
+
+
+}
+
+.formContact> input {
+
+    width: 300px;
+    height: 30px;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom:5%;
+    background-color: rgba(255,255,255,0.7);
+    color: var(--first-color);
+    outline: none;
+    font-size: 16px;
+}
+
+.formContact> textarea {
+    width: 300px;
+    height: 100px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom:5%;
+    background-color: rgba(255,255,255,0.7);
+    color: var(--first-color);
+    outline: none;
+    font-size: 16px;
+}
+
+
+.divBtn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    letter-spacing:1px;
+    padding: 2px 18px;
+    border-radius: 30px;
+    border: 2px solid rgb(24, 158, 241);
+    background: rgba( 255, 255, 255, 0.1 );
+    position: relative;
+    transition: .2s ease-in-out;
+    margin-top : 5%;
+
+}
+
+.divBtn > a {
+    outline: none;
+    background: none;
+    text-decoration: none;
+    color: black;
+    padding: 8px 83px;
+}
+
+.divBtn:hover {
+    cursor: pointer;
+    background-color: var(--first-color)
+
+}
+.contact {
+    flex: 1;
+    margin-right: 8%;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+
+
+}
+
+.contact > .contactItem {
+    background-color: #fff;
+    width: 180px;
+    height: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border:none;
+    border-radius: 30px;
+    background-color: rgba(19, 4, 4, 0.7);
+    transition: .3s ease-out;
+    
+}
+
+.contact > .contactItem:hover {
+    cursor: pointer;
+    background-color: var(--first-color);
+}
+
+.textBlock {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+.textBlock > .text {
+    color: rgb(9, 150, 9);
+}
