@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47a4823f.css",
+    "main.js": "/static/js/main.91a82c57.js",
+    "static/js/787.38de3e28.chunk.js": "/static/js/787.38de3e28.chunk.js",
+    "static/media/works.mp4": "/static/media/works.6fef91022cabb3a2a261.mp4",
+    "static/media/dog.mp4": "/static/media/dog.2aa5b957e9c1d3aa1312.mp4",
+    "static/media/magic.mp4": "/static/media/magic.03bc3ba1d37e69791ec8.mp4",
+    "static/media/avatar_cartoon_rmbr.png": "/static/media/avatar_cartoon_rmbr.d95ef9b9a441fba1d2a6.png",
+    "static/media/avatar.png": "/static/media/avatar.5fb54375279628451b1b.png",
+    "static/media/groom.png": "/static/media/groom.e792fd4ce2bed8897de7.png",
+    "static/media/primary.jpeg": "/static/media/primary.a04305042a94094737b3.jpeg",
+    "static/media/hight.webp": "/static/media/hight.3b8cf87d04030faf9bdb.webp",
+    "static/media/univer.jpeg": "/static/media/univer.941a5e8117fbcff2850f.jpeg",
+    "static/media/junie.jpeg": "/static/media/junie.2a08f74c74bb45d445b0.jpeg",
+    "index.html": "/index.html",
+    "main.47a4823f.css.map": "/static/css/main.47a4823f.css.map",
+    "main.91a82c57.js.map": "/static/js/main.91a82c57.js.map",
+    "787.38de3e28.chunk.js.map": "/static/js/787.38de3e28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47a4823f.css",
+    "static/js/main.91a82c57.js"
+  ]
+}
