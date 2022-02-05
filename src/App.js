@@ -28,6 +28,7 @@ function App() {
             <Route path="*" element={<NoMatch />} />
           </Routes>
           <Outlet />
+
         </div>
       </div>
 

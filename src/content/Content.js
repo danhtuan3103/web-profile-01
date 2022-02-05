@@ -46,8 +46,10 @@ function Content() {
                 </div>
 
                 <div className='imgBlock'>
-                    <img src={img} className={styles.imgInfo} style={{width: 600}}/>
+                    <img src={img} className={styles.imgInfo}/>
                 </div>
+
+
             </div>
         </>
     )

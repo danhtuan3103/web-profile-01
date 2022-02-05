@@ -66,3 +66,35 @@
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   overflow:hidden;
 }
+
+
+
+
+ 
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .splide__arrow svg {
+    display: none;
+  }
+
+  .splide__pagination__page {
+    /* margin-top: 16px; */
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 46.1875em) {
+  .splide__pagination__page {
+    margin-top: 16px;
+  }
+  .splide__arrow svg {
+    display: none;
+  }
+}
+
+/* PC */
+
+@media only screen and (min-width: 64em) {
+ 
+}

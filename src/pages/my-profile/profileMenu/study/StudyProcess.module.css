@@ -37,3 +37,32 @@
 .schoolBlock:first-child {
     margin-top: 5%;
 }
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .container {
+        margin-top: 10%;
+    }
+    .schoolBlock {
+        height: 100px;
+        width: 92%;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 46.1875em) {
+    .schoolBlock {
+        height: 80px;
+        width: 94%;
+        margin: 3% 0;
+    }
+    .schoolBlock > img {
+        display: none;
+    }
+}
+
+/* PC */
+
+@media only screen and (min-width: 64em) {
+  
+}

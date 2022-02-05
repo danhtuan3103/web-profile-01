@@ -29,7 +29,7 @@ function About() {
 
             <div className={styles.textBlock}>
                 <form className={clsx('form-selector', styles.formSelector)}>
-                    <label htmlFor="cars">Choose a language:</label>
+                    <label htmlFor="cars">Choose a language :</label>
                     <select id="select" name='sel' onChange={handleSelect}>
                         {languages.map((language, index) => (
                             <option key={index} value={language}>{language}</option>
@@ -37,7 +37,7 @@ function About() {
 
                     </select>
                 </form>
-                <div className={clsx('content-wrapper')}>
+                <div className={clsx(styles.contactWrapprer, 'content-wrapper')}>
                     <div className={clsx(styles.content, 'english', 'active')}>
                         <h1>Hey. What's up? Hello! 👋</h1>
                         <p>As a graduate student, Saito worked as the fiction editor for Quince Magazine, a literary journal. In 2006, her collection of stories won the Delaney Prize in Short Fiction. Tin & Copper Press will publish Saito’s debut novel in February 2020.</p>

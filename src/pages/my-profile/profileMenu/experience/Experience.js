@@ -26,7 +26,7 @@ function Experience () {
             </div>
 
             <div className={styles.sliderBlock}>
-                <label>Javascript</label>
+                <label>J</label>
                 <input type="range" min="1" max="100" value={slider2} className={clsx(styles.slider, 'slider')} onChange={(e) => setSlider2(e.target.value)}  ></input>
                 <input type='text' className={clsx(styles.numberInput, 'numberInput')} value={slider2} onChange={(e) => setSlider2(e.target.value)}></input>
             </div>

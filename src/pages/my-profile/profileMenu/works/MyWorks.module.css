@@ -7,12 +7,21 @@
     flex-direction: column;
 }
 
+.sliderBlock {
+    display: flex;
+    max-width: 500px;
+    justify-content: center
+
+}
+
 .img {
     width: 400px;
+    height: 400px;
 }
 
 .video {
     width: 500px;
+    height: 400px;
 }
 
 .divBtn {
@@ -47,4 +56,31 @@
     cursor: pointer;
     background-color: var(--first-color)
 
+}
+
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .video {
+        margin-top:10%;
+        width: 95%;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 46.1875em) {
+    .video {
+        margin-top:8%;
+        width: 95%;
+    }
+    .img {
+        width: 350px;
+    }
+  
+}
+
+/* PC */
+
+@media only screen and (min-width: 64em) {
+  
 }

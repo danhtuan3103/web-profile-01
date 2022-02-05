@@ -70,3 +70,31 @@
     border-radius: 5px;
 }   
 
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .sliderBlock {
+        width: 92%;
+        height: 100px;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 46.1875em) {
+    .sliderBlock {
+        width: 92%;
+        height: 80px;
+        margin: 2% 0;
+
+    }
+    .container {
+        margin-top: 10%;
+    }
+}
+
+/* PC */
+
+@media only screen and (min-width: 64em) {
+  
+}
+

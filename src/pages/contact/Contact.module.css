@@ -6,6 +6,7 @@
     align-items: center;
     margin: auto auto;
     font-family: Montserrat;
+    overflow: scroll;
 }
 
 .sendMesage {
@@ -29,6 +30,7 @@
     display: flex;
     flex-direction: column;
     justify-content:content;
+    overflow: scroll;
 
 
 }
@@ -96,6 +98,7 @@
 .contact {
     flex: 1;
     margin-right: 8%;
+    margin-top: 5%;
     width: 500px;
     height: 100%;
     display: flex;
@@ -108,10 +111,9 @@
 
 .contact > .contactItem {
     background-color: #fff;
-    width: 180px;
-    height: 200px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    width: 170px;
+    height: 190px;
+    margin-bottom: 10%;
     display: flex;
     align-items:center;
     justify-content:center;
@@ -137,3 +139,51 @@
 .textBlock > .text {
     color: rgb(9, 150, 9);
 }
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .contact {
+        margin-top: -8%;
+    }
+    
+    .contact > .contactItem {
+        width: 125px;
+        height: 120px;
+        margin-bottom: 3%;
+
+    }
+  }
+  
+  /* Mobile */
+  
+@media only screen and (max-width: 46.1875em) {
+    .container {
+        flex-direction: column;
+    }
+    .contact > .contactItem {
+        display:none;
+        width: 50px;
+        height: 50px;
+        margin: 0 0;
+
+    }
+    .contact > .contactItem > a > img {
+        width: 50px;
+    }
+    .sendMesage {
+        margin-top: 0%;
+        align-items: center
+    }
+    .sendMesage > p {
+        text-align: center;
+        display: none;
+    }
+    .divBtn > a {
+        padding: 6px 64px;
+    }
+  }
+  
+  /* PC */
+  
+@media only screen and (min-width: 64em) {
+   
+  }

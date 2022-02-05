@@ -1,12 +1,12 @@
 .container {
     height: calc(85vh - 90px) ;
-    position: relative;
-    overflow: hidden ;
 }
 .questionContainer {
     display: flex;
     height: 87%;
     flex-wrap: wrap;
+    overflow: scroll;
+
 
 }
 
@@ -29,3 +29,29 @@
     display: flex;
     
 }
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .container {
+        margin-top: -5%;
+    }
+    .infoBlock {
+        margin: 1% auto;
+    }
+  }
+  
+  /* Mobile */
+  
+  @media only screen and (max-width: 46.1875em) {
+    .container {
+        margin-top: -5%;
+    }
+    .infoBlock {
+        margin: 1% auto;
+    }
+  }
+  
+  /* PC */
+  
+  @media only screen and (min-width: 64em) {
+   
+  }

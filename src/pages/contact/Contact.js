@@ -72,24 +72,24 @@ function Contact() {
 
             <div className={styles.contact}>
                 <div className={styles.contactItem}>
-                    <a href='#'>
+                    <a href='https://www.facebook.com/profile.php?id=100015195702096'>
                         <img src="https://img.icons8.com/clouds/130/26e07f/facebook-new.png" />
                     </a>
 
                 </div>
                 <div className={styles.contactItem}>
-                    <a href='#'>
+                    <a href='mailto:danhtuan3103@gmail.com'>
                         <img src="https://img.icons8.com/clouds/130/26e07f/gmail-new.png" />
                     </a>
                 </div>
                 <div className={styles.contactItem}>
-                    <a href='#'>
+                    <a href='tel:01048976769'>
                         <img src="https://img.icons8.com/clouds/130/26e07f/apple-phone.png" />
                     </a>
                 </div>
 
                 <div className={styles.contactItem}>
-                    <a href='#'>
+                    <a href='https://www.instagram.com/danhtuan313/'>
                         <img src="https://img.icons8.com/clouds/130/26e07f/instagram-new--v3.png" />
                     </a>
                 </div>
